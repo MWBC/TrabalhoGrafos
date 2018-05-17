@@ -1,6 +1,7 @@
 import networkx as nx
 import graphviz as gv
 
+#funcao que converte o grafo para o modelo do graphviz
 def ConverteGrafo(vertices, arestas):
 	grafo = gv.Graph(format='PDF')
 
